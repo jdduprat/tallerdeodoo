@@ -7,6 +7,15 @@ Curso de Instalación y administración de Odoo 11 en español
 - [ ]  Taller de Odoo #004 - A vender! Factura Electrónica
 - [ ]  Taller de Odoo #005 - Odoo en modo proxy - nginx
 
+Antes de los scripts crear el usuario odoo
+
+sudo adduser --system --quiet -- shell=/bin/bash --home=/odoo --gecos 'ODOO' --group odoo 
+sudo adduser odoo sudo
+
+y despues de clonar
+
+sudo chown -R odoo:odoo /odoo/*
+
 ## Puede seguir el curso en vivo por Youtube 
 [Youtube CHANNEL](https://www.youtube.com/user/martinjavierllanos)
 
